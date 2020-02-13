@@ -1,0 +1,47 @@
+@import "~bootstrap/scss/bootstrap.scss";
+
+html, body {
+  min-height: 100vh;
+  display: flex;
+  flex: 1;
+}
+
+#__next {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+header {
+  background-color: black;
+  color: white;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.Header__Menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  li {
+    display: inline-block;
+    margin-right: 16px;
+    &:last-child {
+      margin-right: 0;
+    }
+    a {
+      color: white;
+    }
+  }
+}
+
+.content {
+  flex: 1;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+footer {
+  background-color: silver;
+  padding-top: 16px;
+  padding-bottom: 50px;
+}
